@@ -11,11 +11,11 @@ layout: default
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
+        <div class="col-lg-8 col-md-10 mx-auto text-start">
+          <div class="page-heading" style="text-align: left;">
             <h1>{{ site.title }}</h1>
             {% if site.description %}
-            <span class="subheading">{{ site.description }}</span>
+            <span class="subheading text-start d-block" style="font-weight: bold">{{ site.description }}</span>
             {% endif %}
           </div>
         </div>
@@ -26,6 +26,42 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
+
+
+        <h2 class="section-heading">Our Team</h2>
+
+        <p>
+          We are a team of passionate college students, driven by curiosity and a deep fascination with robotics. Our mission is to lead our junior peers in exploring the vast world of technology, where we can push the boundaries of innovation together.
+       </p>
+      
+       <p>
+          In mid-2024, we embarked on this journey with the goal of competing in the First Robotics Challenge, one of the most prestigious robotics competitions in the world. Although we are still in the early stages, our vision is clear: to create groundbreaking projects that not only showcase our technical prowess but also inspire others to see the limitless possibilities within the realm of robotics.
+       </p>
+      
+       <p>
+          Through persistence, perseverance, and a proactive mindset, we aim to make a significant impact in the field of robotics, bringing our ideas to life and contributing to the future of technology. Our journey has just begun, but our commitment to excellence and innovation is unwavering.
+       </p>
+      
+      
+      <h2 class="section-heading">Our Foundation</h2>
+      
+      <p>Our foundation is built on the principles of first-principle thinking, where we break down complex problems into their most basic elements and reassemble them in novel ways. This approach not only strengthens our understanding but also fuels our creativity and problem-solving skills.</p>
+      
+      <blockquote class="blockquote">Teamwork is the fuel that allows common people to attain uncommon results. Together, we achieve more, and together, we win.</blockquote>
+      
+      <br/>
+      
+      <!-- <img class="img-fluid" src="/img/bg-contact.jpg" alt="Demo Image">  -->
+      
+      <img class="img-fluid" src="{{ site.baseurl }}/img/bg-teamwork.jpg" alt="Demo Image">
+      
+      <!-- <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span> -->
+      
+      
+      <!-- <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p> -->
+      
+
+
 
         {{ content }}
 
