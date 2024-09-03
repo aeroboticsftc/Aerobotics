@@ -6,10 +6,10 @@ baseurl:            "/Aerobotics"
 url:                "https://aeroboticsftc.github.io"
 
 # Social Profiles
-twitter_username:   Aerobotics
-github_username:    Aerobotics
-facebook_username:  Aerobotics
-instagram_username:  Aerobotics.ftc
+twitter_username:  
+github_username:    aeroboticsftc
+facebook_username:  aerobotics
+instagram_username:  aerobotics.ftc
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
